@@ -23,6 +23,6 @@ steps:
   inputs:
     azureSubscription: 'Visual Studio Enterprise Subscription(d56ca211-74c4-41a7-90e2-86ab1df9df6d)'
     appType: 'webApp'
-    appName: 'myapp-service-plan'
+    appName: 'Aimpatch'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
     deploymentMethod: 'auto'
